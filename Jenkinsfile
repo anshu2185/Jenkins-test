@@ -1,5 +1,57 @@
 node {
-   echo 'Hello World'
+   echo 'Onboarding started'
    def service_type = params.service_type
-   echo service_type
+   def service_name = params.service_name
+   def description = params.description
+   def domain = params.domain
+   def runtime = params.runtime
+   def repo_protocol				= "http://"
+   def var_github_repo = repo_protocol + "github.com/anshu2185" + "/"
+   def service_template
+   echo "Starting new service on-boarding.."
+	echo "params : $params"
+	
+	stage('Set service Template')
+	{
+	   if(service_type == "pkmst" || service_type == "dropwizard"){
+	   if(runtime == "nodejs" || runtime  == "python" || runtime == "java" || runtime == "" ) {
+	   
+	   switch (service_type) {
+	   
+	     case "pkmst":
+						if(runtime == "java" )
+						{
+							service_template = "api-template-pkmst"
+						}
+						break
+		case "dropwizard":
+						if(runtime == "java" )
+						{
+							service_template = "api-template-dropwizard"
+						}
+						break
+	   }
+	   }
+	   else{
+	            error "Invalid runtime"
+	       }
+	   }
+	   else{
+	            error "Invalid Service Type"
+	       }
+	
+	}
+	
+	stage ('Get Service Template'){
+		
+		try{
+		      git url: var_github_repo+service_template
+		 
+		}catch(error){
+		
+		}
+	
+	
+	}
+	
 }
