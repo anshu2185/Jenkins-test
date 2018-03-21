@@ -69,6 +69,7 @@ node {
 	
 	
 			try{
+			sh 'mkdir ' + service_name
 			sh "mv -nf " + service_template + "/* " + service_name + "/"
 			sh "mv -nf " + service_template + "/.* " + service_name + "/"
 				}catch (error)
