@@ -73,7 +73,7 @@ node {
 		{
 			try{
 				withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: credentialid, passwordVariable: password, usernameVariable: username]]) {
-					sh "curl -X POST -k -v -u \"$username:$password\" -H \"Content-Type: application/json\" " + git_repo + " -d \'{\"name\":\""+ service_name +"\",\"auto_init\":\"+ true +\"}\'"
+					sh "curl -X POST -k -v -u \"$username:$password\" -H \"Content-Type: application/json\" " + git_repo + " -d \'{\"name\":\""+ service_name +"\",\"auto_init\":\"true\"}\'"
 
 					//sh "git config --global user.email \"" + var_bitbucket_email + "\""
 					//sh "git config --global user.name $username"
