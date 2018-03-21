@@ -7,11 +7,12 @@ node {
    def runtime = params.runtime
    def username = params.username
    def password = params.password
+   def credentialid = params.credentialid
    def repo_protocol				= "http://"
    def var_github_repo = repo_protocol + "github.com/anshu2185" + "/"
    def service_template
    echo "Starting new service on-boarding.."
-	echo "params : $params"
+	//echo "params : $params"
 	
 	stage('Set service Template')
 	{
@@ -79,7 +80,7 @@ node {
 		
 		dir(service_name)
 		{
-		   withCredentials([[$class: 'UsernamePasswordMultiBinding', passwordVariable: password, usernameVariable: username]]) {
+		   withCredentials([[$class: 'UsernamePasswordMultiBinding',credentialsId: credentialid, passwordVariable: password, usernameVariable: username]]) {
 			try{
 					sh "git add --all"
 					sh "git commit -m 'Code from the standard template'"
