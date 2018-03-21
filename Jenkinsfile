@@ -8,7 +8,7 @@ node {
    def username = params.username
    def password = params.password
    def credentialid = params.credentialid
-   def repo_protocol				= "http://"
+   def repo_protocol				= "https://"
    def var_github_repo = repo_protocol + "github.com/anshu2185" + "/"
    def service_template
    echo "Starting new service on-boarding.."
