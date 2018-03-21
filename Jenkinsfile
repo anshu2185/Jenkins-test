@@ -48,7 +48,7 @@ node {
 		sh 'mkdir ' + service_template
 			dir(service_template){
 		     // git url: var_github_repo+service_template
-			 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: , url: var_github_repo + service_template + '.git']]])
+			 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: var_github_repo + service_template + '.git']]])
 		 }
 		}catch(error){
 		
