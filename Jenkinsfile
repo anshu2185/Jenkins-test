@@ -5,6 +5,8 @@ node {
    def description = params.description
    def domain = params.domain
    def runtime = params.runtime
+   def username = params.username
+   def password = params.password
    def repo_protocol				= "http://"
    def var_github_repo = repo_protocol + "github.com/anshu2185" + "/"
    def service_template
@@ -43,12 +45,18 @@ node {
 	}
 	
 	stage ('Get Service Template'){
-		
+		try{
+			sh 'rm -rf *'
+			sh 'rm -rf .*'
+		}
+		catch(error){
+			//do nothing
+		}
 		try{
 		sh 'mkdir ' + service_template
 			dir(service_template){
 		     // git url: var_github_repo+service_template
-			 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: var_github_repo + service_template + '.git']]])
+			 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: , url: var_github_repo + service_template + '.git']]])
 		 }
 		}catch(error){
 		
@@ -56,5 +64,30 @@ node {
 	
 	
 	}
+	
+	stage ('Uploading templates to code repository'){
+	
+	dir(service_template)
+		{
+			try{
+			sh "mv -nf " + service_template + "/* " + service_name + "/"
+			sh "mv -nf " + service_template + "/.* " + service_name + "/"
+				}catch (error)
+					{
+					}
+		}
+		dir(service_name)
+		{
+		   withCredentials([[$class: 'UsernamePasswordMultiBinding', passwordVariable: password, usernameVariable: username]]) {
+			try{
+					sh "git add --all"
+					sh "git commit -m 'Code from the standard template'"
+					sh "git remote -v"
+					sh "git push -u origin master "
+				}catch (error)
+					{
+					}
+					}
+		}
 	
 }
