@@ -87,7 +87,7 @@ node {
 	
 		withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: credentialid, passwordVariable: password, usernameVariable: username]]) {
 			def encoded_password = URLEncoder.encode(password, "utf-8")
-            sh "git clone http://$username:$encoded_password@" + "github.com/anshu2185" + service_name +".git"
+            sh "git clone http://$username:$encoded_password@" + "github.com/anshu2185/" + service_name +".git"
 		}
 	
 			try{
