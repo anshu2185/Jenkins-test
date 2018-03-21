@@ -10,6 +10,7 @@ node {
    def credentialid = params.credentialid
    def repo_protocol				= "https://"
    def var_github_repo = repo_protocol + "github.com/anshu2185" + "/"
+	 git_repo = repo_protocol + "api.github.com/user/repos"
    def service_template
    echo "Starting new service on-boarding.."
 	//echo "params : $params"
@@ -72,10 +73,10 @@ node {
 		{
 			try{
 				withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: credentialid, passwordVariable: password, usernameVariable: username]]) {
-					sh "curl -X POST -k -v -u \"$username:$password\" -H \"Content-Type: application/json\" " + var_github_repo + " -d \'{\"name\":\""+ service_name +"\", \"scmId\": \"git\", \"forkable\": \"true\"}\'"
+					sh "curl -X POST -k -v -u \"$username:$password\" -H \"Content-Type: application/json\" " + git_repo + " -d \'{\"name\":\""+ service_name +"\"}\'"
 
 					//sh "git config --global user.email \"" + var_bitbucket_email + "\""
-					sh "git config --global user.name $username"
+					//sh "git config --global user.name $username"
 				}
 				}
 			catch (error)
