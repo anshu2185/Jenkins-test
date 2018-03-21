@@ -67,6 +67,22 @@ node {
 	}
 	
 	stage ('Uploading templates to code repository'){
+		
+		dir(service_template)
+		{
+			try{
+				withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: credentialid, passwordVariable: password, usernameVariable: username]]) {
+					sh "curl -X POST -k -v -u \"$username:$password\" -H \"Content-Type: application/json\" " + var_github_repo + " -d \'{\"name\":\""+ service_name +"\", \"scmId\": \"git\", \"forkable\": \"true\"}\'"
+
+					//sh "git config --global user.email \"" + var_bitbucket_email + "\""
+					sh "git config --global user.name $username"
+				}
+				}
+			catch (error)
+			{
+				echo error
+			}
+		}
 	
 		withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: credentialid, passwordVariable: password, usernameVariable: username]]) {
 			def encoded_password = URLEncoder.encode(password, "utf-8")
