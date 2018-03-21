@@ -70,7 +70,7 @@ node {
 	dir(service_template)
 		{
 			try{
-			sh "mv -nf " + service_template + "/* " + service_name + "/"
+			sh "mv -nf " + service_template + " " + service_name 
 			sh "mv -nf " + service_template + "/.* "+ service_name + "/"
 				}catch (error)
 					{
