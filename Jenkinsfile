@@ -1,4 +1,5 @@
 node {
    echo 'Hello World'
-   echo 'my parameter value is' $service_type
+   def service_type = params.service_type
+   echo service_type
 }
