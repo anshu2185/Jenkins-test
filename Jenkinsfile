@@ -68,6 +68,10 @@ node {
 	
 	stage ('Uploading templates to code repository'){
 	
+		withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: credentialid, passwordVariable: password, usernameVariable: username]]) {
+			def encoded_password = URLEncoder.encode(password, "utf-8")
+            sh "git clone http://$username:$encoded_password@" + var_github_repo + service_name +".git"
+		}
 	
 			try{
 				sh 'rm -rf ' + service_name
