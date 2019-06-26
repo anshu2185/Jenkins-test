@@ -1,0 +1,5336 @@
+{
+    "build": [{
+        "name": "virtualHost",
+        "description": "Virtual Hosts Configuration Settings"
+    }],
+    "proxy": [
+        {
+            "name": "/service/care_deliv/ptnt_care_supp/ACR/ACRConnectService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/care_deliv/ptnt_care_supp/ACR/ACRGRIDTransactions",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/AMRTransportOrdersWS/AMRTransportOrdersWS.asmx",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/Scal/anvita/ws",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/AppointmentSchedulingWebService-v1\n/services/org_kp_svc_hlth_admn_appt_v1_AppointmentSchedulingService_AppointmentSchedulingPortSoap",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hlth_admn/appt/AppointmentSchedulingService/v2/services/org_kp_svc_hlth_admn_appt_v2_AppointmentSchedulingService_AppointmentSchedulingPortSoap",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hlth_admn/appt/AppointmentSchedulingService/v4/services/AppointmentSchedulingService",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/care_mgmt/appt_sched/AppointmentSchedulingService/v6",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/edip/AutoCaInsulinInfusionCalculatorService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/wcf/ACRSelect/BPAService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_inf/CA/Immunization/CAIR/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/mas/ChooseYourDoctorService/v1/services/TtgPcpMasIntegrationService",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/ClinicalCallCenterService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/provider_mgmt/patient_health_info_sharing/ClinicalPhonebook/FilterDataService/v1/",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/provider_mgmt/patient_health_info_sharing/ClinicalPhonebook/FilterVersionService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ba/ncal/tpmg/woc/ClinicianConnectAPI/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/CMS/Pecos/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_inf/CO/CIG/ImmunizationService/2011",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/router/dynqry/prvdr_ntwrk_mgmt/prvdr_mgmt/provider",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/prvdr_ntwrk_mgmt/prvdr_mgmt/CPMDataService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/KPHC/eConsultReferralsREST/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/ptnt_appts/eConsult/SSB/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/ws/services/kpws",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/kphc/EMPI",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicAccessGSPatientServices/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicAccessGSPatientServices/2014",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicAccessGSPatientServices/2014a",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicAccessGSPatientService/2014b",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicAccessGSReferralServices/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/health_admn/care_admn/KPHC/GSAccountServices/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "Epic Billing GS Patient Services Version 2011",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/EpicBillingGSPatientServices/2015",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/EpicBillingGSPatientServices/2015a",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/epic/EpicClinicalGSPatientServices/2010",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicClinicalGSPatientService/2011\n/2w/service/ptnt_care/hlth_info_gthr/epic/EpicClinicalGSPatientService/2011",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicClinicalGSPatientService/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicClinicalGSPatientService/2013",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicClinicalGSUtilityService/2013a",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/EpicClinicalNotesRESTful/2017",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/ClinicalServices/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/health_admn/care_admn/Epic/CommonGSPatientService/2010\n/2w/services/health_admn/care_admn/Epic/CommonGSPatientService/2010",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicCommonGSUtilityServices/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicCommonGSUtility/v2017",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ptnt_care/hlth_info_gthr/epic/CommonServices/200804",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/EPIC/commonservicesMTOM/v2014",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/CommonWebServiceMTOM/2016",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicCommunityEMPIServices/2004-05",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/EpicCoreBCAService/2015",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/CoreServices/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/EpicEdiFhirOAuthSvcs/v2014",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/EpicEdiFhirSvcs/v2014/api/FHIR/DSTU2",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/epic/NCPDP/EdiXmlReceiverService2015/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care/KPHC/EpicEdiXmlReceiverSvcs/2015",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicEMPIGSPatientServices/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicEMPIGSPatientServices/2012a",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/pxcare/copx/haikucanto/v3/httplistener.ashx",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/pxcare/copx/haikucanto/v3/internal/Mobile/Internal/{dynamic}",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/pxcare/copx/haikucanto/v3/api/epic/2017/Auth/OAuth2/{dynamic}",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/wcf/EPIC/EpicInformaticsGSOrderServices/v2014",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/epic/NotificationBrokerSvc/v2017",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/services/care_delivery/PendedOrdersServices/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/hlth_admn/care_admn/MyChartService\n/ws/services/hlth_admn/care_admn/MyChartService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/services/hlth_admn/care_admn/KPHC/PatientAccessService/sp07",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/PatientAccessGSAccountServices/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/health_admn/care_admn/KPHC/PatientAccessGSPatientServices/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/health_admn/care_admn/KPHC/PatientAccessGSPatientServices/2013",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/ptnt_reports/KPHC/EpicPatientAccessGSPtntSvcs/2014",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care_sup/ptnt_reports/KPHC/EpicPatientAccessGSPtntSvcs/2014a",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicAccessGSPatientServices/2015",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicPatientAccessGSPatientServices/2016",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicPatientAccessGSPatientRESTSvc/2016b",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/health_admn/care_admn/Epic/PatientAccessMobileService/2010",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/health_admn/care_admn/Epic/PatientAccessMobileService/2011",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/EpicPatientAccessMobileService/2013",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/EpicPatientAccessMobileServiceMTOM/2013",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care_sup/ptnt_wellness/KPHC/EpicPatientAccessMobileSvcs/2013a",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/ptnt_wellness/KPHC/EpicPatientAccessMobileSvcs/2015",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicPatientAccessGSPatientServices/2016",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/EpicPatientAccessMobileServiceMTOM/2016",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/px_caresup/px_infoshrng/MyChartBedsideService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/PatientAccessServices/2011",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicSchedulingGSPatientService/2011\n/2w/svc/ptnt_care/hlth_info_gthr/epic/EpicSchedulingGSPatientService/2011",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicSchedulingGSPatientService/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicSchedulingGSPatientService/2014",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicSchedulingGSPatient/v2017",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/EpicSchedulingGSProviderService/2012",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicSchedulingGSProvider/v2017",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/MAS_SchedulingPatientService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicSecurityGSBreakTheGlassServices/2013",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/hlth_admn/hlth_rsrc_schdl/Epic/FacilityCensus/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/svc/hp_admn/clm_enctr/claims/v1.0/ClaimsService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_inf/HI/ImmunizationService/2011",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hlth_admn/care_admn/HIE/IdentityHubService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_admin/virtualcare_admin/v3/IVVToGoRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/CDTSSP/KPBabyRESTService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_admin/ptnt_care/KPATHS/KPATHSBookingGuidelineService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_admin/ptnt_care/KPATHS/KPATHSBookingService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_admin/ptnt_care/KPATHS/KPATHSProviderService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_admin/ptnt_care/KPATHS/KPATHSScriptsService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/ADTEventsV2/ptnt_care/hlth_info_gthr/epic/core_patient/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ADTOrdersV2/ptnt_care/hlth_info_gthr/epic/core_patient/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/ADTOrders/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ADTPEV2/ptnt_care/hlth_info_gthr/epic/core_patient/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/CardioOrdV1/ptnt_care/ptnt_care/hlth_info_gthr/epic/core_patient/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/ClinicalCallCenter/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ConsultOrdersV2/ptnt_care/hlth_info_gthr/epic/core_patient/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/hlth_admn/care_admn/CorePatientObjectsServiceBD",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "https://service-bus-01.kp.org/services/hlth_admn/care_admn/CorePatientObjectsServiceMD",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "http://service-bus-dev.kp.org/services/hlth_admn/care_admn/CorePatientObjectsServiceBD",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/DemographicsV1/ptnt_care/hlth_info_gthr/epic/core_patient/v1/edip",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/EKGOrdV1/ptnt_care/hlth_info_gthr/epic/core_patient/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/EncountersV3/ptnt_care/hlth_info_gthr/encounters_kphc/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/EnctrsV1/ptnt_care/hlth_info_gthr/epic/core_patient/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ptnt_care/hlth_info_gthr/encounters_kphc/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/Encounters/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/Encounters/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/KPHCEventListenerServiceRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCFacilityCensusSvc/V2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "FacilityDepartmentsV3/ptnt_care/hlth_info_gthr/epic/FacilityDepartments_KPHC/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hlth_admn/care_mgmt/KPHC/GetAppointments/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/getApptDetails_KPHC/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCGetApptDetails/v2.5",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCGetApptDetails/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetApptHome/v1\n/2w/service/health_admn/care_admn/KPHC/GetApptHome/v1",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/GA/GetBenefits",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetBlankQuestionnaire/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/GA/GetClaims",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/getDemographics_KPHC/V1\n/2w/svc/ptnt_care/hlth_info_gthr/epic/getDemographics_KPHC/V1",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetDiagnosis/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/GetDocumentsMTOM/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/GetDocumentsMTOM/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetEARHome/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/GetEcheckWar/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/GA/GetEligibility",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetEncounters/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetEncounters/v2\n/2w/service/health_admn/care_admn/KPHC/GetEncounters/v2",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GeteVisitQuestionnaireListService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetGuarantorPatientList/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/KPHCgetPatientCareTeam/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/PatientNotes/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/dlvry_of_care/med_admin_mgmt/KPHC/GetPrescriptionService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetProblemList/v1\n/2w/service/health_admn/care_admn/KPHC/GetProblemList/v1",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/service/svc/prvdr_ntwrk_mgmt/prvdr_info/v1.0/ProviderInfoService",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/GetProviderInfo/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/GetProviderInfo/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/PtCareSupport/PHISharing/Tapestry/KPHCgetReferralClaims/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/PtCareSupport/Tapestry/KPHCgetReferralClaims/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/getReferralsClinical_KPHC/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/Mas_GetSchedDepts",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/KPHCGetSchedDepts/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCGetSchedDepts/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care_sup/KPHC/GetUserBaseDeployment/v1\n/2w/service/dlvry_of_care/ptnt_care_sup/KPHC/GetUserBaseDeployment/v1",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/soap/GetWDFConfigService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/GetWDFConfigService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/pxcare/copx/haikucanto/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/LabOrdersV2/ptnt_care/hlth_info_gthr/epic/core_patient/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/LabOrdersV3/ptnt_care/hlth_info_gthr/epic/lab_orders/v3\n/2w/LabOrdersV3/ptnt_care/hlth_info_gthr/epic/lab_orders/v3",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/lab_orders/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCLabOrders/v5\n/2w/service/ptnt_care/hlth_info_gthr/epic/KPHCLabOrders/v5",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/LabOrders/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/LettersV3/ptnt_care/hlth_info_gthr/epic/letters/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/KPHCLetters/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/kphc/LSPApplication/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/kphc/LSPApplicationRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/kphc/LSPConfiguration/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/MedCondV3/ptnt_care/hlth_info_gthr/epic/medical_condition/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/MedicalConditions/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/MedicalConditions/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/MedsV2/ptnt_care/hlth_info_gthr/epic/core_patient/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/MedicationsV3/ptnt_care/hlth_info_gthr/epic/medications_kphc/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCMedications/v5        \n/2w/service/ptnt_care/hlth_info_gthr/epic/KPHCMedications/v5",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/Medications/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/svc/hp_admn/carepoint/KPorg_Integration",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/health_admn/care_admn/KPHC/MyHealthRecord/1.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/MyChartMessagingWrapper/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/NotesCommentsV1/ptnt_care/hlth_info_gthr/epic/core_patient/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/KPHCNotesCommentsServiceV2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/OrderSummaryV3/ptnt_care/hlth_info_gthr/epic/OrderSummary_KPHC/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/OrdersService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/PatientCareTeamService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCgetPatientCareTeam/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCgetPatientCareTeam/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCPatientCareTeamRESTSvc/V4",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/PatientNotesV1/ptnt_care/hlth_info_gthr/epic/patient_note/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/PatientNotes/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCPatientVerification/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/PatientVitalSignsV3/ptnt_care/hlth_info_gthr/epic/PatientVitalSigns_KPHC/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ProcOrdV1/ptnt_care/hlth_info_gthr/epic/core_patient/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/CareDelivery/Carepoint/ProcedureOrders/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/KPHC/ProvisioningToolsSrvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/ga/hlth_admn/care_admn/KPHCputQuestionnaire/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/RadExamDetails/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/RadExamList/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/RadOrdV1/ptnt_care/hlth_info_gthr/epic/core_patient/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/RadiologyOrders/ptnt_care/hlth_info_gthr/epic/core_patient/v5\n/2w/service/RadiologyOrders/ptnt_care/hlth_info_gthr/epic/core_patient/v5",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/kphc/scaffold/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCSchedulingReportsService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/SecureMessageV1/ptnt_care/hlth_info_gthr/epic/secure_message/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care_sup/KPHC/SendInbasketMessage/v1\n/2w/service/dlvry_of_care/ptnt_care_sup/KPHC/SendInbasketMessage/v1",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/KPHCsetApptNotifications/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/KPHCsetApptTargetDate/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/SetConfStatus/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/CDTS/KPHCSetnQuiryStatus/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/ptnt_care/hlth_info_gthr/epic/SetPatientScore/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/KPHC/SetVVFlagSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/StoreDocumentMTOM/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/StoreDocumentMTOM/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/SurgeryV1/ptnt_care/ptnt_care/hlth_info_gthr/epic/core_patient/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/SurgeryV3/ptnt_care/hlth_info_gthr/epic/core_patient/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCSurgeryService/v5",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/KPHC/TextMessageOption/v1        \n/2w/service/ptnt_care/hlth_info_gthr/KPHC/TextMessageOption/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/KPHCTriggerUpdateService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/pxcare/admin/userprovision/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/2w/service/ptnt_care/hlth_info_gthr/epic/EpicVitals/V",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/hlth_admn/care_admn/KPHCAccessServiceEB",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/National/KPChartService/v3",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/KPOJ/OHM/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/monitor/mylink/managerdmservice/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/cd/ptn_monitor/MandrillSendTemplateService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/KPHC/MDGuidelines/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/dlvry_of_care/med_admin_mgmt/v2.0/MedicationOrderService\n/ws/services/dlvry_of_care/med_admin_mgmt/v2.0/MedicationOrderService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/CDTS/nQuiryRequest/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_info/NW/ESB/KPHCDocumentDeliveryRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/phis/GetAvailablePCPProvidersRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/hlth_admn/care_admn/ProxyActivationService/v1\n/ws/services/hlth_admn/care_admn/ProxyActivationService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/QMSI/QMSIPOandIUTReceiptService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/KPHC/ReAdmissionRisk/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/ptnt_care/ptnt_inf/NC/Immunization/RIDE/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/SHP/DataAcceptor/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care/SureScripts/DirectoryDownloadSvc/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care/SureScripts/EligibilityMessagingSvc/v1",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care/SureScripts/FormularyDownloadSvc/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care/SureScripts/PayerMessagingSvc/v1",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/service/dlvry_of_care/ptnt_care/SureScripts/RetailMessagingSvc/v1",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/ptnt_care/hlth_asesmt/HraEpic/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/cd/ptn_monitor/ValidicDHPService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "<routingURL>http://127.0.0.1:7121/oauth20/token<\/routingURL>",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/mng_rx_order/VerizonUniversalIdentityServiceWS/v3",
+            "virtualHost": "ws1way;"
+        },
+        {
+            "name": "/service/ptnt_care/mng_rx_order/VerizonUniversalIdentityService/v5",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/VERS/HealthInsuranceService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/VERS/LoginService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/VERS/OwsService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/VERS/PatientService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/VERS/RetailService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/direct_care_ptnt/Vidyo/VidyoPortalAdminSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/direct_care_ptnt/Vidyo/VidyoPortalGuestSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/direct_care_ptnt/Vidyo/VidyoPortalUserSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/spas_rqrmgmt/SPAS/AccountDataSetupREST/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admn/account_financial_inquiry/services/AccountFinancialInquiry/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/membership/elig_verify/AddressValidationWs/v2",
+            "virtualHost": "dp1way;san1way;dp2way;"
+        },
+        {
+            "name": "/address-validation-ws-2008-11-m/services/AddressValidationWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/wfm/WFMCustomService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/BACHServiceWeb/services/BenAccumClaimsHist",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/prospect_quote/BenefitsValidation/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admin/benefits/v4/BETS/BETSXcelysInfoService",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/health_admn/care_admn/HI/BETSBenefits/5.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/health_admn/care_admn/HI/BETSBenefitsPlan/5.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/prweb/PRSOAPServlet/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/prweb/PRSOAPServlet",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/prweb/PRSOAPServlet/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/carsgetdoc/nonmember/getDoc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/dms/CARSRepositoryService/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales/CARSDocService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/dms/sts/carsgetdoc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/dms/CARSUploadDocService/REST/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/carsws/v2/services/DocsService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/hp_admn/clm_admn/kpcc/AccumSummaryService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/hp_admn/clm_admn/kpcc/AccumService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/CHATS/CaseUpdatesService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/clm_admn/ClaimsConnect/MemberEligibilityService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/CMGroupChangePublish",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/group/CMGroupInquiryService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/Group/CMGroupInquiryService/v1/GroupInquiryService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/CMMemberChangePublish",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/Member/CMMemberInquiryService/v1/MemberInquiry",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/CMSHRNCrossReference.asmx",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/HPAdmin/ClmAdminAuth/COClaimAuthorizationService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/hpchats/v1.0/ComplaintInquiryService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/hp_admin/ConsumerProfilePreferences/LookupService/V2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/hp_admin/EnterpriseProfilesPreferences/SearchService/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admn/CHATS/CSRMemberInquiry/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/doc_mgmt/dms/psp/DocGenService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admin/DPABillingService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admin/DPABillingService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/ClaimsService/v1/ClaimQuoteService",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/elgb/EligibilityService/v5/services/EnterpriseEligibilityService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/otlWeb/services/MedDefServSOAP",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/hp_admin/EPP/EnterpriseProfilesPreferencesService/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/epic/EpicCRMGSUtilityServices/2014b",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/health_admn/care_admn/KPHC/EpicManagedCareAccountServices/2010",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/cd_admn/tapestry_ap/CXT/EpicTapestryAPClaimsService/v2011",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/srv/hp_admn/bnft_admn/v1/ESBEventService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/services/dlvry_of_care_sprt/comm_mgmt/v1.0/EventNotificationService",
+            "virtualHost": "dp2way;dp1way;"
+        },
+        {
+            "name": "/service/health_admn/care_admn/Evolution1/AutoPayBalanceInquiry/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/HP/FamilyInquiry/v1.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/fs-member-list-ws/services/FsMemberListWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-member-family-accountrole-ws-2008-11-m/services/FsFamilyAccountRoleWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/KPFSGroupChangePublish",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-member-demographics-ws-2008-11-m/services/FsMemberDemographicsWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-member-enrollment-ws-2008-11-m/services/FsMemberEnrollmentWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-member-reinstatement-ws-2008-11-m/services/FsMemberReinstatementWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-member-summary-ws-2008-11-m/services/FsMemberSummaryWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-member-termination-ws-2008-11-m/services/FsMemberTerminationWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-member-transfer-ws-2008-11-m/services/FsMemberTransferWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/KPFSMemberChangePublish",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/fs-mssa-purchaser-ws-2008-11-m/services/FsPurchaserWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/fs-tpa-cross-reference-ws-2008-11-m/services/TpaCrossReferenceWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/clm_admn/kpcc/GetRegionalClaimSORService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/HP/GroupMembershipList/v2.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/group/GroupManagementService/v6.2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/prchsr_cntr_mgmt/KPFS/GroupManagement/v7.0\n/2w/service/hp_admn/prchsr_cntr_mgmt/KPFS/GroupManagement/v7.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/HP_CA_Grp_Mgmt_WS_V6/services/GroupManagement",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/KPFS/GroupMembershipList/v1.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admn/nw/mag/Carrier/Enrollment/GroupSetup/v1",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admn/nw/EXIS/Enrollment/GroupSetupStatusUpdate/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/clm_admn/claims/CDWClaimsService/v1/CDWClaimsService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/HP_CA_Mbr_Admn_WS_V2/services/DPAManagementService",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/HP_CA_Mdcr_Admn_WS_V2/services/MedicareManagementService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/HP_CA_Mbr_Elgb_V3/services/MemberEligibilityService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/HP_CA_Prchsr_Cntr_Admn_WS_V2/services/PurchaserManagementService",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/HP_CA_Prchsr_Cntr_Admn_WS_V3/services/PurchaserManagementService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/HP_CA_Prchsr_Cntr_Admn_WS/services/PurchaserRatesService",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/fs-member-search-ws/services/FsMemberSearchWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ROCDPAPaymentWeb/services/DPAPaymentImpl",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/service/hp_admn/prchsr_cntr_mgmt/KPFS/HPGroupSetup/v3.0",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/HP_CA_Grp_Mgmt_WS_V2/services/GroupManagementService",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/prweb/PRSOAPServlet",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/service/hp_admin/doc_mgmt/dms/HPUBMFTStatusUpdateSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/HRN-WS/HRNValidatorPort",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/hpchats/v1.0/IncidentReportService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/mbr_svc/CHATS/IVRSSService/v10",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/mbr_svc/CHATS/IVRSSService/v9",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/bnfts_mgmt/HP/IVRBenefitsService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/bnfts_mgmt/HP/IVRBenefitsService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admin/IVRMemberAuthenticationService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/appt_mgmt/AppointmentManagementService/v2.1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/prvd_val/IVRProviderService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/KPEG/ExternalEligibilityInquiryService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/hp_admn/clm_admn/kpcc/AccumDetailService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/hp_admn/clm_admn/kpcc/AccumSummaryService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/hp_admn/clm_admn/kpcc/ClaimDetailService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/hp_admn/clm_admn/kpcc/ClaimSummaryService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/clm_admn/kphc/KPCCGetClaimDetail/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/clm_admn/kpcc/ClaimDetailService/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/clm_admn/kphc/KPCCGetClaimSummary/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/clm_admn/kpcc/ClaimSummaryService/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/clm_admn/kpcc/GetCoverageService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/clm_admn/kpcc/GetCoverageService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admn/KPCMemberChangeNotification/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/KPCMemberChangeNotification/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/KPOJ/EnterpriseRestToken/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/kpsc/KPSCEnterpriseService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/ProspectGroup/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/kpsc/SBCEventService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SoldRQR/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SoldWorkflowStatusUpdate/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/medicare/salesmarketing/MacessSharedServices/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/elgb/MASEligibilityService/v1/services/EligibilityService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/mbi_hicn_inquiry/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/MBEMedNet/MedicareEnrollmentRequest/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/mbe/MemberMedicareInquiry/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_mktng/MediaBin/MediaBinAssetsDwnldRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/mbr_admin/MediaBin/MediaBinSvc/v8",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/ws/services/care_deliv_sprt/com_mgmt/v1.2/MailingService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/mbr_mgmt/COMemberEnrollmentService/v1-0/services/MemberEnrollmentService\n/svc/hp_admn/mbr_mgmt/GAMemberEnrollmentService/v1-0/services/MemberEnrollmentService\n/svc/hp_admn/mbr_mgmt/NCAMemberEnrollmentService/v1-0/services/MemberEnrollmentService\n/svc/hp_admn/mbr_mgmt/NWMemberEnrollmentService/v1-0/services/MemberEnrollmentService\n/svc/hp_admn/mbr_mgmt/SCAMemberEnrollmentService/v1-0/services/MemberEnrollmentService",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/health_admn/nrt/services/kpifService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/health_admn/nrt/services/smallgrp/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/HP_CA_Mbr_Admn_WS_V2/services/MemberManagementService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/HP_CA_Mbr_Admn_WS_V3/services/MemberManagementService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/HP_CA_Mbr_Mgmt_Svc_WS_V4/services/MemberManagementService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/MemberRequest/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/MemberUpdate/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/member-webservice-2010-08",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/svc/hp_admn/bnft_admn/BenefitsService/MemberBenefitsService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/bnft_admn/KPFS/MemberBenefitsInquiry/v2.1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/hp_admn/mbr_admn/v1/member_enrollment/MemberEnrollment",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/elgb/MemberServices/v1/router/services/MemberHistoryInquiry",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/member/InquiryService/v2/services/MemberInquiry",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_admn/member_inquiry/services/MemberInquiry/v2.1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/elgb/MemberLookupService/v2/services/MemberLookup",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/elgb/MemberLookupService/v2m1/services/MemberLookup",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/mbr_mgmt/SCAMemberEnrollmentService/v1-0/services/MemberEnrollmentService\n/svc/hp_admn/mbr_mgmt/NCAMemberEnrollmentService/v1-0/services/MemberEnrollmentService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/mbr_mgmt/membershipService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/hp_admn/mbr_admn/v1/member_termination/MemberTermination",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/hp_admn/mbr_admn/v1/member_transfer/MemberTransfer",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/hp_admn/mbr_admn/v1/member_update/MemberUpdate",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/care_deliv_sprt/com_mgmt/v1.2.2/MessagingService\n/ws/services/care_deliv_sprt/com_mgmt/v1.2.2/MessagingService",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/mbr_svc/METRS/CaseDocumentUpdateService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/nps/MQRMgmtService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/uty/mcnotification/v1.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/uty/MultiChannelNotificationService/v2.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/bnft/MemberDemographicsAndBenefits/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/bnft/MemberDemographicsAndBenefitsWithAccums/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/MemberService/v2/Chats",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/member/InquiryService/v1/Chats/services/MemberInquiry",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hlth_admin/appt/v2.0/NCAL/KPORG/AppointmentManagementService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_admin/appt/v2.1/NCAL/KPORG/AppointmentManagementService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_admin/appt/v2.5/NCAL/KPORG/AppointmentManagementService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/elgb/NCAEligibilityService/v3/services/EligibilityService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/elgb/NCAEligibilityService/v5/services/EligibilityService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/svc/hp_admn/natl_cost_estimates/MemberProfileEligibility/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/archibus/ws/LocationNFS/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/carsws/v2/services/Archive",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/NPSAppCallbackSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/mbr_admn/BuinessApplicationServices/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/RatingEngineBatchSvcs/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/RatingEngineCommonSvcs/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/mbr_admn/RatingEngineOverridesServices/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/RatingEngineSvcs/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "service/hp_admn/clm_admn/kpcc/OCIValidatorService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/OTRSWeb/services/OTRSCaseMgmtService",
+            "virtualHost": ""
+        },
+        {
+            "name": "/Premium_Inquiry_V1/PremiumInquiry",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/mbr_admin/PremiumRateIncrease/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/corp_svs/admin/corp_dir_srv/v2/ProviderAggregateService",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care_sup/phi_share/KPHC/GetProviderInfo/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/info_scrty/acs_mgmt/KPORG/ProxyMgmtService/v1.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/sales_mktng/dms/psp/AddValSvcRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/eis_util/PubSubUtilService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/prospect_quote/QuoteRequestDetails/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/prospect_quote/RateQuoteRequestDetails/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/sales_mrktg/quote_mgmt/NRT/RateService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/itops_mgmt/remedy/confidentialinfo/v7",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/itops_mgmt/remedy/incidentcreate/v7",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/itops_mgmt/remedy/incidentsearch/v7",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/elgb/CMEligibilityService/v3/services/EligibilityService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/spas_rqrmgmt/SPAS/RQRDataSetupREST/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/nps_rqrmgmt/NPS/RQRRateDetails/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/nps/RQRWorkflowMgmtService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/nps_rqrmgmt/NPS/RQRWorkflowStatusUpdate/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/EnterpriseRestToken/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASAccount/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASContact/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASContactRole/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASContract/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASOpportunity/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASPA/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASSalesTeam/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASUser/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/elgb/SCAEligibilityService/v3/services/EligibilityService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/elgb/SCAEligibilityService/v5/services/EligibilityService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/system-availability-status-ws-2008-11/services/SystemAvailabilityWs",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/Member/MASDPABilling/v1/TMSDPABillingService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/Family/MASFamilyInquiryService/v1/Chats/TMSFamilyInquiryService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/group/TMSGroupInquiryService/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/Group/MASGroupInquiryService/v1/Chats/TMSGroupInquiryService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/Group/MASGroupLookUpService/v1/Chats/TMSSearchGroupService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/hp_admn/bnft/MASBenefitsService/v1/services/MemberBenefitsService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/svc/hp_admn/Member/MASMemberHistoryService/v1/Chats/TMSMemberHistoryService",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/TPAMemberLookup/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/nps_rqrmgmt/NPS/UpdateInitialSoldQuoteInformation/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/kmate/services/TtgPanelStatusMasIntegrationService",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_mgt/tms/UpdateProviderPanelStatus/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/hlth_plan_admin/mbrshp_admin/UserDataService/v1.5.2",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/KPORG/UserDataService/v2.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/UserGroupDetail/REST/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admin/medicare/salesmarketing/WMSSharedServices/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/prvdr_ntwrk_mgmt/prvdr_mgmt/XcelysProviderService/v1",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/prvdr_ntwrk_mgmt/prvdr_rmbrs/XcelysVendorService/v1",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/KPRxBenefitsService/v5",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/EPIMS/MinMaxGatewayService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/SBMO/QMSIDispenserService/GA/V4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/evisits/SurveyAuthoringToolRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/OPPR/PharmacyMobileService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/CDADS/CycleCount/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/CDADS/MemberPrefNotification/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/video_mgmt/CDTSSPVideoMgmtRESTService/v1\n/service/oa/ptnt_care/video_mgmt/CDTSSPVideoMgmtRESTService/v",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/ptnt_care/video_mgmt/CDTSSPVideoMgmtService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/KPAmbassador/CDTSSPKPAmbassadorRESTService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/virtualcare/clinconnect/realm/v1\n/2w/service/diag_thrpy/virtualcare/clinconnect/realm/v1",
+            "virtualHost": "ws1way;ws2way;"
+        },
+        {
+            "name": "/ESB/DispenserService/V3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/ecc/StoreInformationService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/diag_thrpy/phrmcy/EPharmacyOnlineService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/KPCentralPrescriberService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epims/KPCentralPrescriberService/v5",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/KPRxBenefitsService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/DispenserService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/epims/EPPIGetDocRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/epims/EPPIGetDocMetaDataRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/epims/EPPISetDocRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/EPharmacyIVRService/v4.1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/EPharmacyOnlineService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/EPharmacyOnlineService/v5",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/EPharmacyService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epr/KpEcomPatientWSPort/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epr/EcomPatientService/v4.1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/eps/InventoryService/v6",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/OutBoundPatientMessageWSService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/ecc/EnterpriseViewWorkflowService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/ePIMS/getwell/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/InventoryService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/ePIMS/NCPDP/KPHCRxService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epims/KPRxService/v6",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/kphc/KPRxService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epims/KPRxService/v5",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/NcalRxRefillService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/pdx/RxService/V4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/EPSWEB/services/RxService/V5",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/pdx/RxService/V6",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/epims/GSLRxApiRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/ePIMS/MemberPaymentSolution/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/EPIMS/RMSInventoryService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/OpcsService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/RxTransferOutService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/TransferRxService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/diag_thrpy/pharm/ePIMS/SureScripts/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/OutBoundPatientMessageWSService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "service/ptnt_care/ptnt_care_sup/evisits/GetAllergenListService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_care_sup/evisits/MedicationsListService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epims/GSLRxApiService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/HMS/RxVerify/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/Innovation/DispenserService/CO/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/SCAL/OPPR/KNAPPDispenserService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/KpRxInterventionService/OpcsService/V3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epr/EcomPatientService/v4.1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/epr/KpEcomPatientWSPort/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/cd/diag_therapy/pharm/op_pharm_svc/MUePrescribingService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/MedReconMobileService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/oppr/methCheckService/MethCheckWS",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/OPPR/PharmacyCheckInService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/SBMO/QMSIDispenserService/HI/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/SBMO/ABTGDispenserService/MA/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/SBMO/QMSIDispenserService/NCAL/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/SBMO/QMSIDispenserService/GA/V4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/SBMO/QMSIDispenserService/NW/V1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/diag_thrpy/Phrmcy/OPPRRxNotifierService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/SbmoService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/EPharmacyService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/phrmcy/ecc/StoreInformationService/v4",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/diag_thrpy/pharm/SureScripts/PrescriptionService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "Dp URI not found",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/BrokernetService/services/BookOfBusiness\n/SforceService/services/Login",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/EhuEdService/v2",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/TF_KP_VANTIVE_REMEDY",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/fin_acct/fin_mgmt/services/FinanceCodeTranslation",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/Innovation/ScmInventoryResponseService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/services/KP_ADD_OUService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/KP_CHGATTR_ORGService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/KP_DELETE_ORGService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/KP_EMPL_ORGService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/KP_MOVE_ORGService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svcs/corp_entrprs_svcs/MPSPIE/AccountBalanceService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svcs/corp_entrprs_svcs/MPSPIE/PaymentInitiationService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "<route path=\"/service/corp_svcs/corp_entrprs_svcs/tempus/MPSPointOfSaleService/v1/ws1\"> \n      <validate_client_cert>on<\/validate_client_cert>  \n      <regex>\\w{5}[1-5]{1}ya\\w{4}\\.\\w{2}dc\\.kp\\.org<\/regex>  \n      <regex>\\w{5}[1-5]{1}ya\\w{4}\\.cs\\.msds\\.kp\\.org<\/regex>  \n      <routingURL>http://127.0.0.1:7530/service/corp_svcs/corp_entrprs_svcs/tempus/MPSPointOfSaleService/v1/ws1<\/routingURL> \n    <\/route>",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svc/myhr/MyHREmpDataHealthStreamService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/service/corp_svc/myhr/MyHREmpDataSERSService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/MyHrEeDemoPubService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/MyHrEeJobPubService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/MyHrEeLcrcPubService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/MyHrJobTransImgService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/svc/corp_svc/myhr/MyHrLcrcConfigChangePublishService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/MyHrOrgInfoService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ba/corp_svc/hr/myhr/MyHrPayWeb/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/rest/MyHrPeopleFluentService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/soap/MyHrPeopleFluentService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/services/corp_svc/myhr/MyHrPersonInfoService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/MyHrNWAttendanceListener/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/OneLink/OneLinkInventoryBalanceService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/OneLink/OneLinkInventoryTransactionService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/OneLink/OneLinkMinMaxService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/OneLink/ParcScmInventoryTxnService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/fill_inv/OneLink/OneLinkReceiptConfirmationService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "<route path=\"/service/corp_svcs/mbr_admn/eServices/RCIAInquiryUpdate/v1\"> \n      <routingURL>http://127.0.0.1:7638/service/corp_svcs/mbr_admn/eServices/RCIAInquiryUpdate/v1<\/routingURL>  \n      <sslProxyProfile/> \n    <\/route>  ",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svcs/mbr_admn/CS/ReprintADA/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svcs/mbr_admn/HI/ReprintADA/HawaiiStatement/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/MyHR/HCMEEInquiry/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/MyHR/HCMRSSCaseStatusUpdateRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/MyHR/HCMSalesforceCaseManagementRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svcs/eps/v24.0/ElectronicPaymentSwitchService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/MetLifesohService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/fin_mgmt/treasury/MPSPIE/CommonSvcsREST/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/fin_mgmt/treasury/MPSPIE/ScheduledPmnts/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/fin_mgmt/treasury/MPSPIE/SupportSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/svc/human_cap_mgmt/res_mgmt/myhr_hcm/MyhrPdiSecurityService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/corp_svc/myhr/soap/MyHr1095cFormService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/sply_chn_mgmt/ord_mgmt/OneLink/ApprovalService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svc/sply_chn_mgmt/OneLinkArxiumInbound/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/sply_chn_mgmt/OneLinkHTTPConnectorRESTful/v1",
+            "virtualHost": "dp2way;"
+        },
+        {
+            "name": "/service/corp_svc/human_cap_mgmt/OneLink/OneLinkKPIM/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svc/sply_chn_mgmt/OneLinkMHPublish/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/sply_chn_mgmt/ord_mgmt/OneLink/MultiOperationService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/sply_chn_mgmt/OneLinkMacroHelixInbound/v1",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/facilities/fac_reps/OneLink/VignetteMaintMgmtSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/info_mgmt/bpm/wle/v1/search/query",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/info_mgmt/bpm/wle/v1/process",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/info_mgmt/bpm/wle/v1/task",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/resources/datacaches",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/pxcare/pxmgmnt/ODM/DIAGWaitTimeCalcDS/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/human_cap_mgmt/res_mgmt/ODM/HRIBCandidateRankingDecisionRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/pxcare/pxmgmnt/ODM/LABWaitTimeCalcDS/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_mgmt/RAD/OutPatientDashboard/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/pxcare/pxmgmnt/ODM/OPWaitTimeCalcDS/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/pxcare/pxmgmt\u202a\u202c/RAD/OutpatientDashboard/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/bnft_admn/Sertifi/SertifiGateway/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/uty/ServiceLevelEventNotification/v2.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/itops_mgmt/servicenow/incidentcreateupdate/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/itops_mgmt/servicenow/incidentsearch/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/it_gov_ctrl/info_sec_mgmt\u202a\u202c/TRO/CommonAuthorizationService/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/it_gov_ctrl/info_sec_mgmt/ASG/FAMClientPortalAPIRESTSvc/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/it_gov_ctrl/info_sec_mgmt\u202a\u202c/ASG/FederatedAccessManagementOAuthSvc/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/it_gov_ctrl/info_sec_mgmt\u202a\u202c/TRO/KPIMIdentityServices/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/it_gov_ctrl/info_sec_mgmt/TRO/OneLinkProvisioning/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/STS_webservice/oampoc",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/it_governance_control/id_mgmt/acct_provision/IAMAccountProvisioningService/v1",
+            "virtualHost": "dp1way;san1way;"
+        },
+        {
+            "name": "/service/fac/fac_space_mgmt/archibus/CAFMBuildingInfoService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/fac/fac_space_mgmt/NFS/CostModelService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/NCALApptMgmtSvc/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/registration/reg_comp_mgmt_svc/v1/KPORG/UserRegistrationService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/facilities/data/kporg/FacilityDataService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/ROIDocService/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/BusinessEventRoutingSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/NCALApptMgmtSvc/v3",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ws/services/corp_svs/admin/corp_dir_srv/v2/ProviderAggregateService\n/services/corp_svs/admin/corp_dir_srv/v2/ProviderAggregateService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/info_scrty/acs_mgmt/KPORG/ProxyMgmtService/v1.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/KPORG/UserDataService/v2.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/ConfigurationRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/CryptoRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/DocumentRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/GenAlertRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/IdentityMgmtRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/MedicalBillPayRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v2/KPORG/PaymentProxyRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v3/KPORG/PaymentProxyRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/ProviderAggregateSvc/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/ROIReqRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/ptnt_mgmt/KPORG/RoomReadyArrivedPatientRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/UnsubscribeNotificationRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/DPTAuditRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1.1/KPORG/UserAuditRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/VivisimoIndexingRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/CachePolicyManagerRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/CacheSynchronizerRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/CirrusMD/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/RetrieveDrugImageRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/EventGeneratorPrewarmCacheRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/kp_admin/KPORG/WXS_RESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/FDB/DrugEncyclopediaRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/FDB/MonographsRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/HW/HealthwiseInventoryRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/HW/HealthwiseKnowledgeContentRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/HW/HealthwiseMetadataRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPWAMemberCheck/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/PatientCareTeamRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/PatientFlagsRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/ProviderPhotoURLRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/WebAlertsRESTSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/info_mgmt/web_cnt_mgmt/KPORG/Vivisimo/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/ws/services/dlvry_of_care_sprt/comm_mgmt/v1.0/EventNotificationService\n/services/dlvry_of_care_sprt/comm_mgmt/v1.0/EventNotificationService",
+            "virtualHost": "dp2way;dp1way;"
+        },
+        {
+            "name": "/service/dlvry_of_care/med_admin_mgmt/v402/KPORG/MedicationOrderService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/dlvry_of_care/med_admin_mgmt/v402/KPORG/MedicationOrderService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/care_deliv_sprt/com_mgmt/v1/KPORG/NotificationGatewayService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/care_deliv_sprt/com_mgmt/v1.2/KPORG/NotificationGatewayServiceMTOM",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/care_deliv_sprt/com_mgmt/v1/KPORG/NotificationPlatformEventService /2w/service/care_deliv_sprt/com_mgmt/v1/KPORG/NotificationPlatformEventService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/care_deliv_sprt/com_mgmt/v1.2/KPORG/NotificationPlatformEventServiceMTOM",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/registration/reg_comp_mgmt_svc/v1/KPORG/UserRegistrationService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/DPTVideoMgmtService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/care_deliv_sprt/com_mgmt/KPORG/MessagingSvc/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/dlvry_of_care/health_informatics/v1.0/HealthRecordSummary",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/Ncmd/services/NcmdService",
+            "virtualHost": "dp1way;dp2way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/hp_admn/mbr_admn/KPORG/UserDataService/v2.0",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/facility/locations/AwarepointLocation/v1",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/info_mgmt/content_mgmt/clinical_library/resource/v2",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/info_mgmt/content_mgmt/clinical_library/cldata/v2",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/dlvry_of_care/health_informatics/v1.0/ContentAPIService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/DMCSelfServiceToolSvc/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/DPTMemberPhotoRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/mbr_svcs/KPORG/v1.0/DataProvisioningService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/mbr_svcs/KPORG/v1.0/MNPCallBackService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/ptnt_care/hlth_info_gthr/kporg/DPTNationalAppointmentManagement/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/KPORG/PnP/v1.0/ProfilenPreferencesAPIService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/v1/KPORG/DPTVideoMgmtRESTSvc",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hlth_plan_admin/mbrshp_admin/KPORG/AuthorizationSvc/v2",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/resource_admin/v1.0/KATUserProfileService",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/services/ptnt_care_support/ptnt_wellness/KPWellnessAPI/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/it_op_mgmt/inc_mgmt/oits/OnlineITServices/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/hp_admin/sales_acctmgmt/SalesConnect/SPASRQR/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "/service/corp_svc/sply_chn_mgmt/OneLink3PLPublishRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "/service/corp_svc/hcm/SecurityUamKpimRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "service/corp_svc/mbr_admn/RCIA/RCIAMedicalBillServiceRESTful/v1",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": "dp1way;"
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        },
+        {
+            "name": "",
+            "virtualHost": ""
+        }
+    ]
+}
